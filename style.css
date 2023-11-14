@@ -305,3 +305,8 @@ main section {
     display: none;
     justify-content: space-around;
 }
+
+.view {
+    color: wheat;
+    margin-left: 80px;
+}
