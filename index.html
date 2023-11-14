@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Car Rentals</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div id="main">
+
+        <!-- Header -->
+        <header>
+            <nav class="navbar">
+                <button id="open-btn" onclick="openNav()">&#9776</button>
+                <h1>
+                    Car Rentals
+                </h1>
+                <ul class=" nav-items">
+                    <li><a href="#">Sign In</a></li>
+                    <li><a href="#">Sign Up</a></li>
+                    <li><a href="#">Contact</a></li>
+                    <li><a href="#">About</a></li>
+                </ul>
+            </nav>
+        </header>
+
+        <div id="mySidenav" class="sidebar">
+            <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+            <a href="#">Profile</a>
+            <a href="#">Bookings</a>
+            <a href="#">Update Profile</a>
+            <a href="#">Logout</a>
+        </div>
+        <!-- <section> -->
+        <main>
+            <form action="">
+                <input type="text" placeholder="Pickup Location">
+                <input type="datetime-local" name="" id="">
+                <input type="text" placeholder="Drop Off Location">
+                <input type="datetime-local" name="" id="">
+                <button>Search</button>
+            </form>
+            <section class="main-top">
+
+                <h2>Car Types</h2>
+
+                <div class="display-cars">
+                    <button class="accordion">Hatchback</button>
+
+                    <div class="right-side" id="hatchback">
+
+                        <!-- <h1 class="head">Hatchback</h1> -->
+                        <div class="cars">
+                            <img src="https://img.indianautosblog.com/2019/08/07/grand-i10-nios-4674.jpg" alt="Swift">
+                            <h2>hyundai i10</h2>
+                            <p>1500/day</p>
+                            <button>Book Now</button>
+                        </div>
+                        <div class="cars">
+                            <img src="https://img.gaadicdn.com/images/car-images/large/Maruti/Swift/7820/1614160452458/227_Pearl-Arctic-White-midnight-black_d4d5d4.jpg"
+                                alt="Swift vxi">
+                            <h2>Swift vxi</h2>
+                            <p>1200/day</p>
+                            <button>Book now</button>
+                        </div>
+                        <div class="cars">
+                            <img src="https://imgd.aeplcdn.com/1056x594/n/gyi5rsa_1478500.jpg?q=85" alt="Thar">
+                            <h2>Tata altroz</h2>
+                            <p>1500/day</p>
+                            <button>Book now</button>
+                        </div>
+                    </div>
+
+                    <button class="accordion">Sedan</button>
+
+
+                    <div class="right-side" id="sedan">
+                        <!-- <h1 class="head">Sedan</h1> -->
+                        <div class="cars">
+                            <img src="https://images.summitmedia-digital.com/topgear/images/2018/12/04/2018-honda-city-main-1543897070.jpg"
+                                alt="honda city">
+                            <h2>Honda City</h2>
+                            <p>2000/day</p>
+                            <button>Book Now</button>
+                        </div>
+                        <div class="cars">
+                            <img src="http://portallubes.com.br/wp-content/uploads/2019/05/volkswagen-virtus-16-msi-at6.jpg"
+                                alt="Swift vxi">
+                            <h2>volkswagen virtus</h2>
+                            <p>1200/day</p>
+                            <button>Book now</button>
+                        </div>
+                        <div class="cars">
+                            <img src="https://i1.wp.com/www.carblogindia.com/wp-content/uploads/2016/10/2017-hyundai-verna-official-image-front-angle.jpg"
+                                alt="verna">
+                            <h2>hyundai verna</h2>
+                            <p>1800/day</p>
+                            <button>Book now</button>
+                        </div>
+                    </div>
+                    <button class="accordion">SUV</button>
+
+                    <div class="right-side" id="suv">
+                        <!-- <h1 class="head">SUV</h1> -->
+                        <div class="cars">
+                            <img src="https://img.indianauto.com/2020/11/12/TqbeqESC/kia-seltos-2020-front-97db.jpg"
+                                alt="Kia Seltos">
+                            <h2>Kia Seltos</h2>
+                            <p>2000/day</p>
+                            <button>Book Now</button>
+                        </div>
+                        <div class="cars">
+                            <img src="https://1.bp.blogspot.com/-RMrDXsT0E0k/XrwQ30Myc9I/AAAAAAAAdXs/m40xcR112N0tJEBl0oWLcl0tHOi8SWnegCLcBGAsYHQ/s1600/Creta%2BAction_4.jpg"
+                                alt="hyundai creta">
+                            <h2>hyundai creta</h2>
+                            <p>1200/day</p>
+                            <button>Book now</button>
+                        </div>
+                        <div class="cars">
+                            <img src="https://www.theindianwire.com/wp-content/uploads/2021/01/2020-Mahindra-Thar-Price-Hike-1536x864.jpg"
+                                alt="Thar">
+                            <h2>Mahindra Thar</h2>
+                            <p>1800/day</p>
+                            <button>Book now</button>
+                        </div>
+                    </div>
+                </div>
+
+            </section>
+        </main>
+        <!-- </section> -->
+
+        <!-- Footer -->
+        <footer>
+            <ul>
+                <li><a href="#">Contact Us</a></li>
+                <li><a href="#">Our Services</a></li>
+                <li><a href="#">Privacy and Policy</a></li>
+                <li><a href="#">Terms and Conditions</a></li>
+                <li><a href="#">Career</a></li>
+            </ul>
+            <p>&copy;2023 copyright - All rights reserved</p>
+        </footer>
+
+    </div>
+    <script src="script.js"></script>
+</body>
+
+</html>
